@@ -8,6 +8,9 @@ export default {
   theme: {
     extend: {
       colors: {
+        background: 'rgb(var(--background) / <alpha-value>)',
+        foreground: 'rgb(var(--foreground) / <alpha-value>)',
+        border: 'rgb(var(--border) / <alpha-value>)',
         primary: {
           50: '#eff6ff',
           100: '#dbeafe',
